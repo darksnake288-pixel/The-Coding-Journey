@@ -1,16 +1,51 @@
-# React + Vite
-# Demo Link :[Click Here](https://the-coding-journey-lovat.vercel.app/)
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# The Coding Journey
 
-Currently, two official plugins are available:
+Landing page for a coding-education brand: services, banners, newsletter subscribe, join CTA, and footer. Scroll animations use AOS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live demo:** [the-coding-journey-lovat.vercel.app](https://the-coding-journey-lovat.vercel.app)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Hero, services, and promotional banners
+- Subscribe and join sections
+- AOS scroll animations
+- Responsive Tailwind CSS v4 layout
 
-## Expanding the ESLint configuration
+## Tech stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Area | Tools |
+| --- | --- |
+| UI | React 19 |
+| Styling | Tailwind CSS 4 |
+| Animation | AOS |
+| Bundler | Vite 8 |
+| Icons | react-icons |
+
+## Getting started
+
+```bash
+git clone https://github.com/darksnake288-pixel/The-Coding-Journey.git
+cd The-Coding-Journey
+npm install
+npm run dev
+```
+
+| Script | Description |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Production build |
+| `npm run preview` | Preview the production build |
+| `npm run lint` | Run ESLint |
+
+## Project layout
+
+```
+src/
+  App.jsx
+  Components/   # Navbar, Hero, Services, Banner2, Subscribe, Join, Footer
+  assets/
+```
+
+## Author
+
+[Youssef Adel](https://github.com/darksnake288-pixel) · Frontend developer
