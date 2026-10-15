@@ -24,7 +24,7 @@ const Services = () => {
             </div>
             
             {/* التعديل هنا: نقلنا الـ grid للـ ul علشان يطبق على الـ li مباشرة */}
-            <ul data-aos="fade-right"  className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 text-2xl font-semibold'>
+            <ul data-aos="fade-right"  className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-xl md:text-2xl font-semibold'>
                 {ServiceData.map((service)=>(
                     <li 
                         className='flex flex-col items-center justify-center bg-[#f1ecec] rounded-2xl p-6 text-center transition-all duration-300 hover:shadow-2xl hover:bg-white cursor-pointer h-48 gap-4' 

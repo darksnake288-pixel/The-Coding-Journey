@@ -16,11 +16,11 @@ const Navbar = () => {
 
     return (
      <nav data-aos="fade-down" className="relative bg-white z-50"> {/* ضفنا relative هنا عشان المنيو تظبط تحتها */}
-        <div className="container py-10 flex justify-between items-center">
+        <div className="container mx-auto px-4 md:px-12 py-6 md:py-10 flex justify-between items-center gap-4">
             
             {/**Logo Section */}
             <div>
-                <h1 className="text-2xl font-bold pl-25">The Coding Journey</h1>
+                <h1 className="text-xl sm:text-2xl font-bold">The Coding Journey</h1>
             </div>
 
             {/**Menu Section (Desktop) */}
